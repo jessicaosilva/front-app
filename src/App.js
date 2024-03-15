@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import FirstComponent from './components/FisrtComponent';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div>
+      <h1>Fundamentos React</h1>
+        <FirstComponent />
     </div>
   );
 }
