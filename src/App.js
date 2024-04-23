@@ -1,12 +1,19 @@
-import FirstComponent from './components/FisrtComponent';
+import City from "./assets/city.jpg";
 
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>Fundamentos React</h1>
-        <FirstComponent />
+    <div className='App'>
+      <h1>Avançando em React</h1>
+      {/* Imagem em public */}
+      <div>
+        <img src="/img1.jpg" alt="Paisagem" />
+      </div>
+      {/* Imagem em assets */}
+      <div>
+        <img src={City} alt="Cidade" />
+      </div>
     </div>
   );
 }
